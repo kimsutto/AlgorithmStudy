@@ -1,6 +1,6 @@
 # Algorithm Study
 
-팀원 : 오동건(@geonee), 김수진(kimsutto), 김은혜, 형준혁(@gudwnsgur), 이동건(@tnpdlzi), 정재현(@jaehyunii)
+팀원 : 김수진(kimsutto), 김은혜(@eunhye77777), 형준혁(@gudwnsgur), 이동건(@tnpdlzi), 정재현(@jaehyunii)
 <br>
 
 
