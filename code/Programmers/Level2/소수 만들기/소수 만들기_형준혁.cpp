@@ -31,6 +31,5 @@ int solution(vector<int> nums) {
 int main() 
 {
 	cout << solution({ 1,2,7,6,4 });
-	
 	return 0;
 }
