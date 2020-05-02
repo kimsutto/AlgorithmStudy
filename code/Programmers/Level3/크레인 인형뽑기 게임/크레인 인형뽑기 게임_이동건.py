@@ -7,36 +7,26 @@ moves = [1, 5, 3, 5, 1, 2, 1, 4]
 def solution(board, moves):
     count = 0
 
-    l = len(board)
-    array = [[0 for col in range(l)] for row in range(l)]
-    for i in range(l):
-        for j in range(l):
-            array[i][j] = board[j][i]
+    stack = deque()
+
+    for i in range(len(moves)):
+        for j in range(len(board)):
+
+            if(board[j][moves[i]-1] != 0):
+
+                if(stack):
+                    if (stack[-1] == board[j][moves[i] - 1]):
+                        count = count + 2
+                        stack.pop()
+                    else:
+                        stack.append(board[j][moves[i] - 1])
+
+                else:
+                    stack.append(board[j][moves[i] - 1])
 
 
-    nb = []
-    for i in range(l):
-        nb.append(deque(reversed(array[i])))
-
-    move = deque(moves)
-    stack = []
-    while (move):
-        key = move.popleft() - 1
-        st = 0
-        while (st == 0):
-            if (len(nb[key]) > 0):
-                st = nb[key].pop()
-            else:
+                board[j][moves[i] - 1] = 0
                 break
-        if(st != 0):
-            stack.append(st)
-        if (len(stack) > 2):
-            if (stack[-1] == stack[-2]):
-                count = count + 2
-                stack.pop()
-                stack.pop()
-        else:
-            continue
 
     return count
 
