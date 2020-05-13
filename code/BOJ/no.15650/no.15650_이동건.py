@@ -7,7 +7,7 @@ arr = []
 
 def dfs(cnt):
     if(cnt == m):
-        print(arr)
+        print(*arr)
         return
     for i in range(n):
         if(checklist[i]):
