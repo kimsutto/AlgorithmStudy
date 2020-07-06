@@ -1,4 +1,3 @@
-no.2447/
 #include <stdio.h>
 
 void draw(int x, int y) {
