@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
+#include <string>
+#include <vector>
+
+using namespace std;
 
 bool solution(int x) {
     bool answer = false;
@@ -15,6 +16,5 @@ bool solution(int x) {
     if(x%sum==0){
         answer = true;
     }
-    
     return answer;
 }
