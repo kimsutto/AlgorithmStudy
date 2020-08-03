@@ -6,7 +6,7 @@ using namespace std;
 string solution(int n) {
     string answer = "";
     
-    while(1){   //10%3==1, 10/3=3, 3%3==0, 3/3=1
+    while(1){
         
         if(n%3==1)answer.push_back('1');
         else if(n%3==2) answer.push_back('2');
