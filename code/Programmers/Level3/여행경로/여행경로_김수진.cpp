@@ -7,32 +7,31 @@ vector<string> ans;
 bool visited[10000];
 string last;
 
-void dfs(vector<vector<string>> tickets, int a){
-    if(a==tickets.size()){
+bool dfs(vector<vector<string>> tickets, string a, int b){
+    ans.push_back(a);
+    if(b==tickets.size()){
         answer = ans; 
-        return;
+        return true;
     }
     
     for(int i=0; i< tickets.size() ; i++){
-        if(ans.size()==0){
-            if(tickets[i][0]=="ICN" && !visited[i]){
-                ans.push_back(tickets[i][0]);
-                ans.push_back(tickets[i][1]);
-                last = tickets[i][1];
-                visited[i] = true;
-                dfs(tickets,a+1);
-                visited[i]= false;
-            }
-        }else if(last==tickets[i][0] && !visited[i]) {
-            ans.push_back(tickets[i][1]);
-            last = tickets[i][1];
+        if(tickets[i][0]==a && !visited[i]){
             visited[i] = true;
-            dfs(tickets,a+1);
-            visited[i] = false;
-        }    
+            last = tickets[i][1];
+            if(dfs(tickets,last,b+1)) return true;
+            visited[i]= false;
+        }   
     }
     ans.pop_back();
+    return false;
+}
+
+vector<string> solution(vector<vector<string>> tickets) {
+    sort(tickets.begin(), tickets.end());
+    dfs(tickets, "ICN", 0);
     
+    
+    return answer;
 }
 
 vector<string> solution(vector<vector<string>> tickets) {
