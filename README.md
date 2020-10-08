@@ -1,13 +1,12 @@
 # Algorithm Study
 
-팀원 : 김수진(kimsutto), 김은혜(@eunhye77777), 형준혁(@gudwnsgur), 이동건(@tnpdlzi), 정재현(@jaehyunii)
+팀원 : 김수진(kimsutto), 김은혜(@eunhye77777), 형준혁(@gudwnsgur), 이동건(@tnpdlzi), 정재현(@jaehyunii), 이민정
 <br>
 
 
 ## 규칙 
 
-- 1일 1문제 이상이 원칙, 2일 이상 빠지면 벌금 5천원 (타당한 사유가 있을 시 제외)  <br>
-- 문제 푸는데 사용한 알고리즘은 주석으로 달아주기 <br>
+- 시험기간 등 바쁘지 않으면 1이 1커밋 <br>
 - 같이 풀었으면 하는 문제는 하루 전 날 README.md의 건의부분에 주소와 함께 남기기 <br>
 <br>
 
@@ -31,6 +30,4 @@
 
 ## 건의 
 
-0504 ~ 0510 주간에 다같이 별찍기 문제를 풀었으면 좋겠습니다
 https://www.acmicpc.net/workbook/view/20
-(위에꺼 풀지마세요!!)
