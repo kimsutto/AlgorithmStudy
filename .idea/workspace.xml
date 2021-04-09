@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="649a37a6-ab44-49bf-957c-b3543b435b11" name="Default Changelist" comment="" />
+    <list default="true" id="649a37a6-ab44-49bf-957c-b3543b435b11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/BOJ/no.10757/no.10757_이동건.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,10 +31,10 @@
   <component name="ProjectId" id="1Z1M8MHvKAS9ttVdhuA1cWawnOE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -153,6 +156,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,86 +190,36 @@
       <workItem from="1586411998450" duration="696000" />
       <workItem from="1586502987620" duration="229000" />
       <workItem from="1586524998571" duration="168000" />
+      <workItem from="1617977012949" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="502" y="25" key="#no.1065_이동건" timestamp="1584770674892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="502" y="25" key="#no.1065_이동건/0.0.1536.824@0.0.1536.824" timestamp="1584770674892" />
-    <state x="502" y="25" key="#no.14681_이동건" timestamp="1584357525829">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="502" y="25" key="#no.14681_이동건/0.0.1536.824@0.0.1536.824" timestamp="1584357525829" />
-    <state x="502" y="8" key="#no.1904_이동건" timestamp="1585815619964">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="502" y="8" key="#no.1904_이동건/0.0.1536.824@0.0.1536.824" timestamp="1585815619964" />
-    <state x="502" y="25" key="#no.4673_이동건" timestamp="1584357499053">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="502" y="25" key="#no.4673_이동건/0.0.1536.824@0.0.1536.824" timestamp="1584357499053" />
-    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1584357821174">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584357821174" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586240722618">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586240722618" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586240722617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586240722617" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1586164103450">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586164103450" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585470252502">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585470252502" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1157_.coverage" NAME="no.1157_이동건 Coverage Results" MODIFIED="1585471494045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1157" />
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2748_.coverage" NAME="no.2748_이동건 Coverage Results" MODIFIED="1585637566357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2748" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_14681_.coverage" NAME="no.14681_이동건 Coverage Results" MODIFIED="1584770625035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.14681" />
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2675_.coverage" NAME="no.2675_이동건 Coverage Results" MODIFIED="1585201589009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2675" />
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1904_.coverage" NAME="no.1904_이동건 Coverage Results" MODIFIED="1585826833298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1904" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1149_.coverage" NAME="no.1149_이동건 Coverage Results" MODIFIED="1585991620287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1149" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2675_.coverage" NAME="no.2675_이동건 Coverage Results" MODIFIED="1585201589009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2675" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_4673_.coverage" NAME="no.4673_이동건 Coverage Results" MODIFIED="1584086461634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.4673" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_9461_.coverage" NAME="no.9461_이동건 Coverage Results" MODIFIED="1586164681852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.9461" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1932_.coverage" NAME="no.1932_이동건 Coverage Results" MODIFIED="1586239759022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1932" />
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2562_.coverage" NAME="no.2562_이동건 Coverage Results" MODIFIED="1584086440894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2562" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1065_.coverage" NAME="no.1065_이동건 Coverage Results" MODIFIED="1585034209525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1065" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2748_.coverage" NAME="no.2748_이동건 Coverage Results" MODIFIED="1585637566357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2748" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_2562_.coverage" NAME="no.2562_이동건 Coverage Results" MODIFIED="1584086440894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.2562" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1157_.coverage" NAME="no.1157_이동건 Coverage Results" MODIFIED="1585471494045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1157" />
+    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_1904_.coverage" NAME="no.1904_이동건 Coverage Results" MODIFIED="1585826833298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.1904" />
     <SUITE FILE_PATH="coverage/AlgorithmStudy$no_10809_.coverage" NAME="no.10809_이동건 Coverage Results" MODIFIED="1585200353371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.10809" />
-    <SUITE FILE_PATH="coverage/AlgorithmStudy$no_4673_.coverage" NAME="no.4673_이동건 Coverage Results" MODIFIED="1584086461634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/BOJ/no.4673" />
   </component>
 </project>
